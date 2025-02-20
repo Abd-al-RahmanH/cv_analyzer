@@ -11,7 +11,7 @@ from reportlab.lib.styles import getSampleStyleSheet
 
 # Initialize Hugging Face Inference Client with Mistral-7B
 client = InferenceClient(
-    model="mistralai/Mistral-7B-Instruct-v0.1",
+    model="mistralai/Mistral-7B-Instruct",
     token=os.getenv("HF_TOKEN"))
 
 # Function to extract text from PDF
