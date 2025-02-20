@@ -1,0 +1,7 @@
+huggingface_hub==0.25.2
+PyPDF2
+docx
+python-docx
+reportlab
+fitz
+pymupdf
